@@ -2,7 +2,6 @@
   "name": "restaraunt-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://xsevenhacker.github.io/RestauranteReact",
   "dependencies": {
     "@auth0/auth0-react": "^1.8.0",
     "@fortawesome/fontawesome-free": "^5.15.4",

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/RestauranteMadrid/static/css/main.4cf1d275.chunk.css",
+    "main.js": "/RestauranteMadrid/static/js/main.36ee4e2a.chunk.js",
+    "main.js.map": "/RestauranteMadrid/static/js/main.36ee4e2a.chunk.js.map",
+    "runtime-main.js": "/RestauranteMadrid/static/js/runtime-main.f5ddc936.js",
+    "runtime-main.js.map": "/RestauranteMadrid/static/js/runtime-main.f5ddc936.js.map",
+    "static/css/2.02ce77d2.chunk.css": "/RestauranteMadrid/static/css/2.02ce77d2.chunk.css",
+    "static/js/2.8ce583a1.chunk.js": "/RestauranteMadrid/static/js/2.8ce583a1.chunk.js",
+    "static/js/2.8ce583a1.chunk.js.map": "/RestauranteMadrid/static/js/2.8ce583a1.chunk.js.map",
+    "index.html": "/RestauranteMadrid/index.html",
+    "static/css/2.02ce77d2.chunk.css.map": "/RestauranteMadrid/static/css/2.02ce77d2.chunk.css.map",
+    "static/css/main.4cf1d275.chunk.css.map": "/RestauranteMadrid/static/css/main.4cf1d275.chunk.css.map",
+    "static/js/2.8ce583a1.chunk.js.LICENSE.txt": "/RestauranteMadrid/static/js/2.8ce583a1.chunk.js.LICENSE.txt",
+    "static/media/avatar.1a84bdf0.svg": "/RestauranteMadrid/static/media/avatar.1a84bdf0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5ddc936.js",
+    "static/css/2.02ce77d2.chunk.css",
+    "static/js/2.8ce583a1.chunk.js",
+    "static/css/main.4cf1d275.chunk.css",
+    "static/js/main.36ee4e2a.chunk.js"
+  ]
+}

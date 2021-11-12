@@ -1,0 +1,52 @@
+.recomendados {
+	padding: 50px 30px 50px 30px;
+}
+.recomendados h3 {
+	font-weight: bold;
+	margin-bottom: 40px;
+	color: #542929;
+}
+.recomendadosContent {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.recContIzq {
+	width: 520px;
+	height: 520px;
+	display: flex;
+    flex-wrap: wrap;
+}
+.menuRecomendados {
+	width: 300px;
+}
+.contRecContIzq {
+	width: 220px;
+	height: 220px;
+	background-color: #542929;
+	margin: 20px;
+}
+.recContDer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+.btnMenu {
+	background-color: #ff2b0a;
+	width: 200px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 40px;
+}
+
+.btnMenu p {
+	text-align: center;
+	margin-top: 7px;
+	font-weight: bold;
+	color: white;
+}

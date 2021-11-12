@@ -1,0 +1,39 @@
+.contenedorTarjetaProductos {
+	display: flex;
+	align-items:center;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.imagen {
+	background-color: blue;
+	width: 250px;
+	margin: 10px;
+}
+.contenedorCantidad {
+	min-width: 100px;
+	width: 150px;
+	margin: 10px;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction:column;
+}
+.contenedorCantidad p {
+	font-size: 25px;
+}
+.imagen img {
+	min-width:200px;
+	width: 100%;
+}
+.contenedorInfo {
+	min-width: 200px;
+	width: 70%;
+}
+.contador {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 30px;
+	width: 120px;
+}

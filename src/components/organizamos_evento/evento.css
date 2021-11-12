@@ -1,0 +1,55 @@
+.middle {
+	width: 100%;
+	background-color: #300000;	
+	background-size: cover;
+	background-position: 30% 50%;
+	background-repeat: no-repeat;
+}
+.titleMiddle {
+	padding-top: 50px;
+	padding-left: 80px;
+}
+.titleMiddle h2 {
+	color: white;
+	font-weight: bold;
+}
+.contMiddle {
+	padding:50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;	
+}
+.contMiddle h3 {
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+.boxMiddle {
+	width: 300px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+}
+.boxMiddle p {
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
+.imagenBoxMiddle {
+	width: 150px;
+	margin-bottom: 30px;
+}
+.imgBxMddle {
+	width: 100px;
+}
+.imgBxMddleEspecial {
+	margin-top: 28px;
+}
+.icofont-plus-circle {
+	font-size: 50px;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}

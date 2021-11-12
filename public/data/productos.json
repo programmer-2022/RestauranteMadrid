@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "nombre": "Huevo",
+    "descripcion": "Huevo con consumación de fritez en aceite en herbor sobre soporte de lonja tronchada de vacuno",
+    "precio": 5000,
+    "url": "assets/menu1@2x.jpg",
+    "cantidad": 0    
+  },
+  {
+    "id": 2,
+    "nombre": "Tubos de Pasta",
+    "descripcion": "Tubos de pasta arrollados habitados por aglomerado de vegetales en tritura",
+    "precio": 23000,
+    "url": "assets/menu2@2x.jpg",
+    "cantidad": 0    
+  },
+  {
+    "id": 3,
+    "nombre": "Carne Ensobrada",
+    "descripcion": "Carne ensobrada sobre huevo agitado y astillas de pan",
+    "precio": 7500,
+    "url": "assets/menu3@2x.jpg",
+    "cantidad": 0    
+  },
+  {
+    "id": 4,
+    "nombre": "Pasta aserpentinada",
+    "descripcion": "Pasta aserpentinada con tomates acebollados en fusión",
+    "precio": 8000,
+    "url": "assets/menu4@2x.jpg",
+    "cantidad": 0
+  }
+]

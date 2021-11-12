@@ -1,0 +1,30 @@
+[
+    {
+        "id" : 0,
+        "name": "Seleccionar una opción"
+    },
+    {
+        "id" : 1,
+        "name": "Celebración de cumpleaños"
+    },
+    {
+        "id" : 2,
+        "name": "Aniversarios"
+    },
+    {
+        "id" : 3,
+        "name": "Fiestas infantiles"
+    },
+    {
+        "id" : 4,
+        "name": "Declaraciones o propuestas"
+    },
+    {
+        "id" : 5,
+        "name": "Despedidas"
+    },
+    {
+        "id" : 6,
+        "name": "Cena con amigos"
+    }
+]

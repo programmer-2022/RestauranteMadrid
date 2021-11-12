@@ -1,0 +1,80 @@
+.contenedor-titulo {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.div-titulo {
+    font-weight: bold;
+    width: 35%;    
+}
+.div-titulo h1 {
+    color: #592F3D;
+    font-size: 5rem;
+}
+.div-izq {
+    margin-right: 15px;
+}
+.paragraph {
+    text-align: justify;
+    color: #592F3D;
+}
+.form-control,
+.form-select {
+    background-color: #DFDED9;
+    padding: .5em .9em;
+}
+.my-select {
+    position: relative;
+}
+.custom-arrow {
+    background-color: #686868;
+    border-radius: 0 .31rem .31rem 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 2.5rem;
+    height: 100%;
+    pointer-events: none;
+}
+.custom-arrow::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    --size: .7em;
+    left: 50%;
+    top:60%;
+    transform: translate(-50%, -60%);
+}
+.custom-arrow::before {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-top: var(--size) solid #FBFBFB;
+}
+.boton {
+    background-color: #FF3C04;
+    color: #DFDED9;
+    font-size: 1.2em;
+    padding: .3em 3em;
+    width: 80%;
+}
+
+@media screen and (max-width: 1400px){
+    .div-titulo h1 {
+        font-size: 3.5rem;
+    }  
+}
+@media screen and (max-width: 900px){ 
+    .contenedor-parrafos {
+        display: block;
+    }
+    .div-titulo h1 {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 501px){
+    .div-titulo h1 {
+        font-size: 2.5rem;
+    }
+}

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faShoppingCart, faHome, faUtensils, faPhone, faUsers, faCalendarCheck } from '@fortawesome/free-solid-svg-icons'
+import  { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import LoginButton from '../authorization/login'
 import Profile from '../profile/profile'
-import {useAuth0} from '@auth0/auth0-react'
+import { useAuth0 } from '@auth0/auth0-react'
 
 export default function Nav() {
 
@@ -20,30 +20,30 @@ export default function Nav() {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item fs-5 me-3">
-                            <Link to="/" className="nav-link" aria-current="page"><FontAwesomeIcon icon={faHome} /> Inicio</Link>
+                            <Link to="/" className="nav-link" aria-current="page">Inicio</Link>
                         </li>
                         <li className="nav-item fs-5 me-3">
-                            <Link to="/menu" className="nav-link"><FontAwesomeIcon icon={faUtensils} /> El Menú</Link>
+                            <Link to="/menu" className="nav-link">El Menú</Link>
                         </li>
                         <li className="nav-item fs-5 me-3">
-                        <Link to="/reservas" className="nav-link"><FontAwesomeIcon icon={faCalendarCheck} /> Reservas</Link>
+                        <Link to="/reservas" className="nav-link">Reservas</Link>
 
                         </li>
                         <li className="nav-item fs-5 me-3">
-                            <Link to="/contacto" className="nav-link"><FontAwesomeIcon icon={faPhone} /> Contacto</Link>
+                            <Link to="/contacto" className="nav-link">Contacto</Link>
                         </li>
                         <li className="nav-item fs-5 me-3">
-                            <Link to="/nosotros" className="nav-link"><FontAwesomeIcon icon={faUsers} /> Nosotros</Link>
+                            <Link to="/nosotros" className="nav-link">Nosotros</Link>
                         </li>
                         {
                             (isAuthenticated) ?
                                 <li className="nav-item fs-5 me-3">
-                                    <Link to="/dashboard" className="nav-link"><FontAwesomeIcon icon={faUsers} />Dashboard</Link>
+                                    <Link to="/dashboard" className="nav-link">Dashboard</Link>
                                 </li>
                             : ""
                         }
                         <li className="nav-item fs-5">
-                            <Link to="/carrito" className="nav-link"><FontAwesomeIcon icon={faShoppingCart} /> 0 items</Link>
+                            <Link to="/carrito" className="nav-link"><FontAwesomeIcon icon={faShoppingCart} /> Carrito vacío</Link>
                         </li>
                     </ul>
                     {              
